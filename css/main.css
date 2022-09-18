@@ -198,12 +198,7 @@ ol {
   transition: color var(--stnd-transition);
 }
 
-.envelope {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.smartphone {
+.header-contact-icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -242,9 +237,7 @@ ol {
   color: var(--transparency-color);
   transition: color var(--stnd-transition);
 }
-
-.footer-contact:hover,
-.footer-contact:focus {
+.footer-contact:hover, .footer-contact:focus {
   color: var(--accent-color);
 }
 
@@ -306,11 +299,9 @@ ol {
   border-radius: 4px;
   transition: border-color var(--stnd-transition);
 }
-
 .mailing-input:hover {
   border-color: var(--accent-color);
 }
-
 .mailing-input:focus {
   outline: 1px solid var(--accent-color);
 }
@@ -795,9 +786,7 @@ textarea {
   border-radius: 4px;
   transition: color var(--stnd-transition), background-color var(--stnd-transition), box-shadow var(--stnd-transition);
 }
-
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-button:hover, .portfolio-button:focus {
   background-color: var(--accent-color);
   color: var(--main-color);
   cursor: pointer;
