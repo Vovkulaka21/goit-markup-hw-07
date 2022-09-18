@@ -1,11 +1,11 @@
-.portfolio-nav-list {
+.portfolio-nav {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 
-.portfolio-button {
+.portfolio-nav__button {
   padding: 6px 22px;
   font-family: var(--primary-font);
   font-style: normal;
