@@ -39,8 +39,8 @@
     color: var(--main-color);
     cursor: pointer;
     border: none;
-}
-
-.order-btn:active {
-    background: #188ce8;
+    
+    &:active {
+            background: #188ce8;
+        }
 }

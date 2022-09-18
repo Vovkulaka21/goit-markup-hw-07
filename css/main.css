@@ -15,7 +15,7 @@
   --dark-logo-color: #000;
   --transparency-color: rgba(255, 255, 255, 0.6);
   --alternative-bakcground-color: #f5f4fa;
-  --stnd-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --stnd-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -565,7 +565,6 @@ textarea {
   cursor: pointer;
   border: none;
 }
-
 .order-btn:active {
   background: #188ce8;
 }
@@ -707,19 +706,15 @@ textarea {
   height: 44px;
   transition: background-color var(--stnd-transition);
 }
+.social-links:hover, .social-links:focus {
+  background-color: var(--accent-color);
+}
 
 .social-icon {
   fill: #afb1b8;
   transition: fill var(--stnd-transition);
 }
-
-.social-links:hover,
-.social-links:focus {
-  background-color: var(--accent-color);
-}
-
-.social-links:hover .social-icon,
-.social-links:focus .social-icon {
+.social-links:hover .social-icon, .social-links:focus .social-icon {
   fill: var(--main-color);
 }
 
