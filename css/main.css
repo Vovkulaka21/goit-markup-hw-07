@@ -525,6 +525,15 @@ textarea {
   text-decoration: underline;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  font-weight: var(--font-weight-bold);
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
 .order-service {
   max-width: 1600px;
   margin-left: auto;
@@ -606,15 +615,6 @@ textarea {
   padding-top: 0;
 }
 
-.second-title-main {
-  margin-bottom: 50px;
-  font-weight: var(--font-weight-bold);
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--second-text-color);
-}
-
 .what-we-do-list {
   display: flex;
   gap: 30px;
@@ -647,15 +647,6 @@ textarea {
 
 .our-team {
   background-color: var(--alternative-bakcground-color);
-}
-
-.second-title-team {
-  margin-bottom: 50px;
-  font-weight: var(--font-weight-bold);
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--second-text-color);
 }
 
 .our-team-list {
@@ -716,15 +707,6 @@ textarea {
 }
 .social-links:hover .social-icon, .social-links:focus .social-icon {
   fill: var(--main-color);
-}
-
-.title-customers {
-  margin-bottom: 50px;
-  font-weight: var(--font-weight-bold);
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--second-text-color);
 }
 
 .customers-list {
