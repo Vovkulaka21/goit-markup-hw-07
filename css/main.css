@@ -215,7 +215,6 @@ ol {
   margin-bottom: 9px;
 }
 
-.studio-address,
 .address-link {
   font-style: normal;
   line-height: 1.71;
@@ -374,13 +373,11 @@ ol {
   cursor: pointer;
 }
 
-.close-button:hover .close-icon,
-.close-button:focus .close-icon {
-  fill: var(--accent-color);
-}
-
 .close-icon {
   transition: fill var(--stnd-transition);
+}
+.close-button:hover .close-icon, .close-button:focus .close-icon {
+  fill: var(--accent-color);
 }
 
 .modal-form {
@@ -429,6 +426,9 @@ ol {
   transform: translateY(-50%);
   transition: fill var(--stnd-transition);
 }
+.form-input:focus + .form-icon, .form-input:hover + .form-icon {
+  fill: var(--accent-color);
+}
 
 .form-input {
   padding: 12px 42px;
@@ -437,6 +437,9 @@ ol {
   border-radius: 4px;
   cursor: pointer;
   transition: outline var(--stnd-transition);
+}
+.form-input:focus, .form-input:hover {
+  outline: 1px solid var(--accent-color);
 }
 
 textarea.form-input {
@@ -447,16 +450,6 @@ textarea.form-input {
 
 textarea {
   resize: none;
-}
-
-.form-input:focus ~ .form-icon,
-.form-input:hover ~ .form-icon {
-  fill: var(--accent-color);
-}
-
-.form-input:focus,
-.form-input:hover {
-  outline: 1px solid var(--accent-color);
 }
 
 .label-privacy {
@@ -476,7 +469,6 @@ textarea {
   border: 2px solid var(--dark-logo-color);
   border-radius: 3px;
 }
-
 .checkbox:checked + .checkbox-icon {
   background-color: var(--accent-color);
   border: none;
@@ -645,7 +637,7 @@ textarea {
   padding-bottom: 30px;
 }
 
-.third-title-team {
+.title-team {
   margin-bottom: 10px;
   font-weight: var(--font-weight-stnd);
   font-size: var(--font-size-big);
