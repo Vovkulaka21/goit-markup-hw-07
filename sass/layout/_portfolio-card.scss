@@ -21,14 +21,14 @@
   }
 }
 
-.portfolio-card-position {
+.portfolio-card__position {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
-.portfolio-title {
+.portfolio-card__title {
   margin-bottom: 4px;
   font-weight: var(--font-weight-bold);
   font-size: 18px;
@@ -37,7 +37,7 @@
   color: var(--second-text-color);
 }
 
-.portfolio-text {
+.portfolio-card__text {
   color: var(--text-color);
   font-size: var(--font-size-big);
   line-height: 1.9;
