@@ -16,15 +16,14 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/main.min.css" />
-    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header-info">
+    <header class="header">
       <div class="container">
         <nav class="navigation">
           <a class="logotype" href="./index.html"
-            ><span class="one-word-color">Web</span>Studio</a
+            ><span class="logotype--one-word-color">Web</span>Studio</a
           >
           <ul class="header-list">
             <li>
@@ -63,59 +62,61 @@
     <main>
       <section class="section order-service">
         <div class="container">
-          <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-          <button data-modal-open class="order-btn" type="button">
+          <h1 class="order-service__title">
+            Ефективні рішення для вашого бізнесу
+          </h1>
+          <button data-modal-open class="order-service__btn" type="button">
             Замовити послугу
           </button>
         </div>
       </section>
-      <section class="section our-features">
+      <section class="section features">
         <div class="container">
           <h2 class="visually-hidden">Наші особливості</h2>
-          <ul class="our-features__list">
-            <li class="our-features__item">
-              <div class="our-features__box">
+          <ul class="features__list">
+            <li class="features__item">
+              <div class="features__box">
                 <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="our-features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="our-features__text">
+              <h3 class="features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="our-features__item">
-              <div class="our-features__box">
+            <li class="features__item">
+              <div class="features__box">
                 <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="our-features__title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="our-features__text">
+              <h3 class="features__title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="our-features__item">
-              <div class="our-features__box">
+            <li class="features__item">
+              <div class="features__box">
                 <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="our-features__title">ПЛАНУВАННЯ</h3>
-              <p class="our-features__text">
+              <h3 class="features__title">ПЛАНУВАННЯ</h3>
+              <p class="features__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="our-features__item">
-              <div class="our-features__box">
+            <li class="features__item">
+              <div class="features__box">
                 <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="our-features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="our-features__text">
+              <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -123,50 +124,50 @@
           </ul>
         </div>
       </section>
-      <section class="section what-we-do">
+      <section class="section specific">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="what-we-do-list">
-            <li class="what-we-do-item">
+          <ul class="specific__list">
+            <li class="specific__item">
               <img
                 src="./images/whatwedo_1.jpg"
                 alt="whatwedo_1"
                 width="370"
                 height="294"
               />
-              <div class="we-do-label">
-                <p class="we-do-text">Десктопні додатки</p>
+              <div class="specific__box">
+                <p class="specific__text">Десктопні додатки</p>
               </div>
             </li>
-            <li class="what-we-do-item">
+            <li class="specific__item">
               <img
                 src="./images/whatwedo_2.jpg"
                 alt="whatwedo_2"
                 width="370"
                 height="294"
               />
-              <div class="we-do-label">
-                <p class="we-do-text">Мобільні додатки</p>
+              <div class="specific__box">
+                <p class="specific__text">Мобільні додатки</p>
               </div>
             </li>
-            <li class="what-we-do-item">
+            <li class="specific__item">
               <img
                 src="./images/whatwedo_3.jpg"
                 alt="whatwedo_3"
                 width="370"
                 height="294"
               />
-              <div class="we-do-label">
-                <p class="we-do-text">Дизайнерські рішення</p>
+              <div class="specific__box">
+                <p class="specific__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section our-team">
+      <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="our-team-list">
+          <ul class="team__list">
             <li class="team-card">
               <img
                 src="./images/igor.jpg"
@@ -402,48 +403,48 @@
           </ul>
         </div>
       </section>
-      <section class="section our-customers">
+      <section class="section customers">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="customers-list">
-            <li class="customer-item">
-              <a href="" class="customer-link">
-                <svg class="customer-icon" width="106" height="60">
+          <ul class="customers__list">
+            <li class="customers__item">
+              <a href="" class="customers__link">
+                <svg class="customers__icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#customer1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-item">
-              <a href="" class="customer-link">
-                <svg class="customer-icon" width="106" height="60">
+            <li class="customers__item">
+              <a href="" class="customers__link">
+                <svg class="customers__icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#customer2"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-item">
-              <a href="" class="customer-link">
-                <svg class="customer-icon" width="106" height="60">
+            <li class="customers__item">
+              <a href="" class="customers__link">
+                <svg class="customers__icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#customer3"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-item">
-              <a href="" class="customer-link">
-                <svg class="customer-icon" width="106" height="60">
+            <li class="customers__item">
+              <a href="" class="customers__link">
+                <svg class="customers__icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#customer4"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-item">
-              <a href="" class="customer-link">
-                <svg class="customer-icon" width="106" height="60">
+            <li class="customers__item">
+              <a href="" class="customers__link">
+                <svg class="customers__icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#customer5"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-item">
-              <a href="" class="customer-link">
-                <svg class="customer-icon" width="106" height="60">
+            <li class="customers__item">
+              <a href="" class="customers__link">
+                <svg class="customers__icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#customer6"></use>
                 </svg>
               </a>
@@ -456,8 +457,8 @@
     <footer id="footer-link" class="page-footer">
       <div class="container">
         <div class="footer-text">
-          <a class="studio-logo-footer" href="./index.html"
-            ><span class="one-word-color">Web</span>Studio</a
+          <a class="logotype-footer" href="./index.html"
+            ><span class="logotype--one-word-color">Web</span>Studio</a
           >
           <ul class="footer-list">
             <li class="footer-item">
@@ -599,7 +600,11 @@
           </div>
           <div class="form-privacy">
             <label class="label-privacy">
-              <input class="checkbox" type="checkbox" name="checkbox" />
+              <input
+                class="visually-hidden checkbox"
+                type="checkbox"
+                name="checkbox"
+              />
               <svg class="checkbox-icon" width="16" height="15">
                 <use href="./images/symbol-defs.svg#accept"></use>
               </svg>

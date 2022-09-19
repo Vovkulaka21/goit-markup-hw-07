@@ -1,13 +1,13 @@
-.our-features__list {
+.features__list {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.our-features__item {
+.features__item {
     flex-basis: calc((100% - 90px) / 4);
 }
-.our-features__box {
+.features__box {
     height: 120px;
     background-color: var(--alternative-bakcground-color);
     border-radius: 4px;
@@ -17,7 +17,7 @@
     margin-bottom: 30px;
 }
 
-.our-features__title {
+.features__title {
     margin-bottom: 10px;
     font-weight: var(--font-weight-bold);
     font-size: var(--stnd-font-size);
@@ -26,6 +26,6 @@
     color: var(--second-text-color);
 }
 
-.our-features__text {
+.features__text {
     line-height: 1.71;
 }

@@ -16,14 +16,14 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/main.min.css" />
-    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
   </head>
   <body>
-    <header class="header-info">
+    <!-- HEADER -->
+    <header class="header">
       <div class="container">
         <nav class="navigation">
           <a class="logotype" href="./index.html"
-            ><span class="one-word-color">Web</span>Studio</a
+            ><span class="logotype--one-word-color">Web</span>Studio</a
           >
           <ul class="header-list">
             <li>
@@ -39,7 +39,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-list">
+        <ul class="header-list-contact">
           <li>
             <a class="header-contact" href="mailto:info@devstudio.com">
               <svg class="header-contact-icon" width="16" height="12">
@@ -50,7 +50,7 @@
           </li>
           <li>
             <a class="header-contact" href="tel:+380961111111">
-              <svg class="header-contact-icon" width="16" height="12">
+              <svg class="header-contact-icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -64,18 +64,28 @@
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
           <ul class="portfolio-nav">
-            <li><button class="portfolio-nav__button" type="button">Усі</button></li>
             <li>
-              <button class="portfolio-nav__button" type="button">Веб-сайти</button>
+              <button class="portfolio-nav__button" type="button">Усі</button>
             </li>
             <li>
-              <button class="portfolio-nav__button" type="button">Додатки</button>
+              <button class="portfolio-nav__button" type="button">
+                Веб-сайти
+              </button>
             </li>
             <li>
-              <button class="portfolio-nav__button" type="button">Дизайн</button>
+              <button class="portfolio-nav__button" type="button">
+                Додатки
+              </button>
             </li>
             <li>
-              <button class="portfolio-nav__button" type="button">Маркетинг</button>
+              <button class="portfolio-nav__button" type="button">
+                Дизайн
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-nav__button" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <ul class="portfolio-card-list">
@@ -304,8 +314,8 @@
     <footer id="footer-link" class="page-footer">
       <div class="container">
         <div class="footer-text">
-          <a class="studio-logo-footer" href="./index.html"
-            ><span class="one-word-color">Web</span>Studio</a
+          <a class="logotype-footer" href="./index.html"
+            ><span class="logotype--one-word-color">Web</span>Studio</a
           >
           <ul class="footer-list">
             <li class="footer-item">
@@ -332,7 +342,7 @@
           </ul>
         </div>
         <div class="footer-social">
-          <span class="footer-title"><b>приєднуйтесь</b></span>
+          <span class="footer-title">приєднуйтесь</span>
           <ul class="footer-social-list">
             <li>
               <a
@@ -381,7 +391,7 @@
           </ul>
         </div>
         <div class="mailing">
-          <span class="footer-title"><b>Підпишіться на розсилку</b></span>
+          <span class="footer-title">Підпишіться на розсилку</span>
           <form class="mailing-form">
             <input class="mailing-input" type="email" placeholder="E-mail" />
             <button class="button-footer" type="submit">

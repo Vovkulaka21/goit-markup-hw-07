@@ -1,16 +1,16 @@
-.what-we-do {
+.specific {
     padding-top: 0;
 }
-.what-we-do-list {
+.specific__list {
     display: flex;
     gap: 30px;
 }
 
-.what-we-do-item {
+.specific__item {
     position: relative;
 }
 
-.we-do-label {
+.specific__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     left: 0;
 }
 
-.we-do-text {
+.specific__text {
     color: var(--main-color);
     font-weight: var(--font-weight-bold);
     font-size: var(--stnd-font-size);
